@@ -26,7 +26,6 @@ ___
 
 ### Donate
 ____
-- Paypal - woytesaja@gmail.com
 - Saweria.co - [Here](https://saweria.co/MikasaGCH)
 - trakteer.id - [Here](https://trakteer.id/Mikasa-GCH/tip)
 
