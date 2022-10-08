@@ -4,7 +4,7 @@
 
 **Personal Stuffs:**
 - 🚀 Blockchain Testnet Node Operator 
-- 🌱 Currently learning Js, Ts, Solidity, and Go
+- 🌱 Currently learning Js, Ts, Css, and Html
 - ✨ Interested in backend-ish things 
 - 🤔 Looking for help with my life
 
