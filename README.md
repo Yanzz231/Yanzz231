@@ -8,4 +8,4 @@
 - ✨ Interested in backend-ish things 
 - 🤔 Looking for help with my life
 
-[Here](https://saweria.co/MikasaGCH)
+[Here 👈🏻](https://saweria.co/MikasaGCH)
