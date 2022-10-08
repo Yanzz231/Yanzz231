@@ -9,3 +9,4 @@
 - 🤔 Looking for help with my life
 
 [Here](https://saweria.co/MikasaGCH)
+<script src="https://gist.github.com/YogaSakti/b66b9fe7386e6ce27d272eae8c5772e5.js"></script>
