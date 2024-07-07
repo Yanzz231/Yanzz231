@@ -3,8 +3,8 @@
 <img align="right" alt="GIF" height="125px" src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" />
 
 **Personal Stuffs:**
-- 🚀 Blockchain Testnet Node Operator 
-- 🌱 Currently learning Js, Ts, Css, and Html
+- 🚀 Astronot
+- 🌱 Currently learning Js, Css, and Html
 - ✨ Interested in backend-ish things 
 - 🤔 Looking for help with my life
 
