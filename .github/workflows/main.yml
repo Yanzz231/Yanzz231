@@ -5,13 +5,30 @@ on:
   schedule:
     # Runs at 17 pm UTC or 12 am UTC+7
     - cron: "0 17 * * *"
+
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TIME_RANGE: all_time
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          SHOW_TITLE: true
+          SECTION_NAME: waka
           BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          CODE_LANG: text
+          TIME_RANGE: all_time
+          LANG_COUNT: 10
+          SHOW_TIME: true
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          STOP_AT_OTHER: true
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
+          TARGET_BRANCH: master
+          TARGET_PATH: README.MD
+          COMMITTER_NAME: yanzz231
+          COMMITTER_EMAIL: mrpartys05@gmail.com
+          AUTHOR_NAME: Yanzz231
+          AUTHOR_EMAIL: mrpartys05@gmail.com
