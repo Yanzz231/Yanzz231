@@ -25,7 +25,7 @@ jobs:
           SHOW_TOTAL: true
           SHOW_MASKED_TIME: false
           STOP_AT_OTHER: true
-          IGNORED_LANGUAGES: Other Markdown SCSS Image svg "Git Config" Dart Text XML Groovy Docker "Java Properties" textmate mcfunction Bash YAML SQL TSConfig "Image (svg)"
+          IGNORED_LANGUAGES: Prisma Other Markdown SCSS Image svg "Git Config" Dart Text XML Groovy Docker "Java Properties" textmate mcfunction Bash YAML SQL TSConfig "Image (svg)"
           COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           TARGET_BRANCH: master
           TARGET_PATH: README.MD
