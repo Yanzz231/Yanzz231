@@ -1,34 +1,17 @@
 name: Waka Readme
 
 on:
+  workflow_dispatch:
   schedule:
     # Runs at 17 pm UTC or 12 am UTC+7
-    - cron: '0 17 * * *'
-  workflow_dispatch:
+    - cron: "0 17 * * *"
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          COMMIT_BY_ME: "True"
-          COMMIT_USERNAME: "yanzz231"
-          COMMIT_EMAIL: "mrpartys05@gmail.com"
-          SHOW_LINES_OF_CODE: "False"
-          SHOW_TOTAL_CODE_TIME: "False"
-          SHOW_PROFILE_VIEWS: "False"
-          SHOW_COMMIT: "False"
-          SHOW_DAYS_OF_WEEK: "True"
-          SHOW_LANGUAGE: "True"
-          SHOW_OS: "False"
-          SHOW_PROJECTS: "False"
-          SHOW_TIMEZONE: "False"
-          SHOW_EDITORS: "True"
-          SHOW_LANGUAGE_PER_REPO: "False"
-          SHOW_SHORT_INFO: "False"
-          SHOW_LOC_CHART: "False"
-          SHOW_UPDATED_DATE: "True"
-          SYMBOL_VERSION: "2"
+          TIME_RANGE: all_time
+          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
