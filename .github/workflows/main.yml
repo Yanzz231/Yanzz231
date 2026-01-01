@@ -1,11 +1,8 @@
 name: Waka Readme
-
 on:
   workflow_dispatch:
   schedule:
-    # Runs at 17 pm UTC or 12 am UTC+7
     - cron: "0 17 * * *"
-
 jobs:
   update-readme:
     name: WakaReadme DevMetrics
@@ -33,3 +30,15 @@ jobs:
           COMMITTER_EMAIL: mrpartys05@gmail.com
           AUTHOR_NAME: Yanzz231
           AUTHOR_EMAIL: mrpartys05@gmail.com
+      
+      - name: Check and commit
+        run: |
+          git config user.name 'Yanzz231'
+          git config user.email 'mrpartys05@gmail.com'
+          
+          # Cek ada perubahan atau nggak
+          if git diff-index --quiet HEAD --; then
+            git commit --allow-empty -m "Updated waka-readme graph with new metrics"
+          fi
+          
+          git push
